@@ -1,0 +1,30 @@
+Using the attached regression data, you are going to train a radial 
+basis function (RBF) network network with one input, 
+one output and H Gaussian units/experts.
+
+Part 1:
+Try at least three different H values so one underfits, one
+fits well and one overfits. Implement the hybrid version 
+(unsupervised in the first layer + supervised in the second layer). 
+Use k-means for the unsupervised learning part. 
+
+You should implement k-means yourself, i.e. not use a library.
+
+For each case (underfitting, overfitting and good fit), 
+after convergence, 
+ a) plot input in the x axis and output produced by the network in the y axis (only for training set)
+ b) plot the p_h(RBF), weighted values w_h*p_h with the training data together  
+    with the training data so that we can see how the fit is distributed over the hidden units.
+
+Part2:
+Plot also training and validation root mean squared 
+errors as a function of H from 1 to 10. 
+
+----------------------------------------------
+Submit your code, results (plots) and a short report explaining what you did "AS A SINGLE WORD DOCUMENT".
+(Paste the source code into the word document).
+
+Submission should be done through ITSLEARNING!
+
+
+This homework is due April 26, Wed, 23:59.
